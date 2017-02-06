@@ -2,6 +2,7 @@ $body-bg: #c0cad8;
 $nav-bg: #ffffff;
 $link-color: #637282;
 $button-color: #0070e0;
+$border-color: #c1c7cd;
 
 body {
   background-color: $body-bg;
@@ -42,7 +43,7 @@ body {
         color: $button-color;
         margin : 25px 5px;
         padding: 10px 18px;
-        border: 1px solid #c1c7cd;
+        border: 1px solid $border-color;
       }
     }
   }
