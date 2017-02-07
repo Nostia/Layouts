@@ -1,0 +1,55 @@
+$gray: #767676;
+$dark-gray: #484848;
+
+*{
+  font-family: 'Roboto', sans-serif;
+  color: $gray;
+}
+.content {
+  min-height: calc(100vh - 290px);
+}
+.footer {
+  height: 270px;
+}
+
+.header{
+  b{
+    color: $dark-gray;
+  }
+  padding-bottom: 10px;
+}
+
+.small-col{
+  padding: 0 5px;
+}
+
+ul{
+  list-style-type: none;
+  padding : 0px;
+}
+
+a{
+  color: $gray;
+}
+
+a:hover{
+  color: $gray;
+}
+
+img{
+   height:2em;
+}
+i{
+  padding: 0 10px;
+}
+.select-menu{
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+          background: transparent url("http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png") no-repeat 90% center;
+  padding: 12px;
+  margin-bottom: 5px;
+  border-radius: 0;
+  line-height: 24px;
+  width: 70%;
+}
